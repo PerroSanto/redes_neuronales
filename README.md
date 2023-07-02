@@ -2,21 +2,21 @@
 
 ## índice
 
-1. [Definición](#definición)
+1. [Definición](#definicion)
 2. [Historia](#historia)
-3. [¿Cómo se componen?](#cómo-se-componen)
-4. [¿Cómo funcionan?](#cómo-funcionan)
-5. [Tipos o clasificación](#tipos-o-clasificación)
+3. [¿Cómo se componen?](#como-se-componen)
+4. [¿Cómo funcionan?](#como-funcionan)
+5. [Tipos o clasificación](#tipos-o-clasificacion)
 6. [Usos o aplicaciones](#usos-o-aplicaciones)
 7. [Ventajas y desventajas](#ventajas-y-desventajas)
-8. [Redes neuronales y programación lógica](#redes-neuronales-y-programación-lógica)
-9. [Sistema Híbrido Neuro-Simbólico (SHNS)](#sistema-híbrido-neuro-simbólico-shns)
+8. [Redes neuronales y programación lógica](#redes-neuronales-y-programacion-logica)
+9. [Sistema Híbrido Neuro-Simbólico (SHNS)](#sistema-hibrido-neuro-simbolico-shns)
 10. [Ejercicio de redes neurales resuelto en Prolog](#Ejercicio-de-redes-neurales-resuelto-en-Prolog)
-11. [Conclusión](#conclusión)
-12. [Bibliografía](#bibliografía)
+11. [Conclusión](#conclusion)
+12. [Bibliografía](#bibliografia)
 
 
-## Definición <a id="definición"></a>
+## Definición <a id="definicion"></a>
 
 Las redes neuronales, también conocidas como redes neuronales artificiales (RNA) o redes neuronales simuladas (RNS), son un subconjunto de machine learning y constituyen el eje de los algoritmos de deep learning. Su nombre y estructura se inspiran en el cerebro humano, e imitan la forma en la que las neuronas biológicas se señalan entre sí.
 
@@ -48,7 +48,7 @@ Es importante mencionar que una de las redes neuronales más conocidas es el alg
 
 ![Historia-1989](./imagenes/Historia-1989.jpg)
 
-## ¿Cómo se componen? (Modelo General) <a id="cómo-se-componen"></a>
+## ¿Cómo se componen? (Modelo General) <a id="como-se-componen"></a>
 
 La estructura básica de una red neuronal consta de capas de neuronas interconectadas. La capa de entrada recibe los datos del mundo exterior y los envía a través de la red, mientras que la capa de salida produce el resultado final del procesamiento. Entre la capa de entrada y la capa de salida, puede haber una o más capas ocultas que procesan la información.
 
@@ -80,7 +80,7 @@ En el caso de las redes neuronales profundas, que tienen múltiples capas oculta
 Además, para entrenar la red neuronal y ajustar sus parámetros para mejorar su rendimiento, se utiliza un proceso llamado retropropagación. En este proceso, se calcula y atribuye el error asociado a cada neurona en la capa de salida, y luego se propagan hacia atrás los errores a través de las capas ocultas hasta llegar a la capa de entrada. Esto permite ajustar y adecuar los parámetros del modelo en función del error cometido y mejorar el rendimiento de la red para tareas futuras.
 
 
-## Tipos o clasificación <a id="tipos-o-clasificación"></a>
+## Tipos o clasificación <a id="tipos-o-clasificacion"></a>
 
 Los diferentes tipos de redes neuronales y sus clasificaciones son los siguientes:
 
@@ -189,7 +189,7 @@ Las redes neuronales ofrecen varias ventajas significativas, pero también tiene
 | Fácil Inserción en Tecnología Existente | Sensibilidad a la Escala de Datos |
 
 
-## Redes neuronales y programación lógica <a id="redes-neuronales-y-programación-lógica"></a>
+## Redes neuronales y programación lógica <a id="redes-neuronales-y-programacion-logica"></a>
 
 La relación entre redes neuronales y programación lógica se encuentra en el campo de la Inteligencia Artificial y el aprendizaje automático, donde ambas abordan problemas de manera diferente pero pueden combinarse en ciertos contextos.
 
@@ -214,7 +214,7 @@ Lógica difusa y redes neuronales:
 * La lógica difusa se utiliza para lidiar con la imprecisión y la incertidumbre en los datos o en los resultados de las redes neuronales. Puede combinarse con redes neuronales para mejorar su capacidad para manejar información difusa y dar lugar a sistemas más robustos.
 
 
-## Sistema Híbrido Neuro-Simbólico (SHNS) <a id="sistema-híbrido-neuro-simbólico-shns"></a>
+## Sistema Híbrido Neuro-Simbólico (SHNS) <a id="sistema-hibrido-neuro-simbolico-shns"></a>
 
 ![Neural-Symbolic](./imagenes/Neural-Symbolic.png)
 
@@ -339,7 +339,7 @@ El código proporciona ejemplos de animales junto con sus características. Cada
 * Predicado para clasificar animales:
 El predicado classify_animal/1 se utiliza para clasificar un animal dado. Toma el nombre del animal como argumento, obtiene sus características utilizando el predicado animal/3 y luego utiliza la red neuronal (neural_network/3) para determinar si el animal es un mamífero o no. Dependiendo del valor de Y, se muestra un mensaje indicando si el animal es un mamífero o no.
 
-## Conclusión <a id="conclusión"></a>
+## Conclusión <a id="conclusion"></a>
 
 En este análisis, hemos explorado conceptos relacionados con las redes neuronales y el paradigma de programación lógica. Comenzamos definiendo qué son las redes neuronales, destacando su estructura inspirada en el funcionamiento del cerebro humano y su capacidad para aprender a través de la experiencia.
 
@@ -350,7 +350,7 @@ Se presentó el concepto de Integración Neuro-Simbólica, que combina técnicas
 Tambien analizamos sus ventajas y desventajas, así como algunas aplicaciones relacionadas con el Procesamiento del Lenguaje Natural y las implementaciones en Prolog. Cada uno de estos temas ofrece oportunidades interesantes y desafiantes en el campo de la inteligencia artificial y la computación cognitiva.
 
 
-## Bibliografía <a id="bibliografía"></a>
+## Bibliografía <a id="bibliografia"></a>
 
 ##### https://www.ibm.com/es-es/topics/neural-networks 
 

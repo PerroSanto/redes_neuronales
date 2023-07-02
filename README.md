@@ -339,7 +339,6 @@ El código proporciona ejemplos de animales junto con sus características. Cada
 * Predicado para clasificar animales:
 El predicado classify_animal/1 se utiliza para clasificar un animal dado. Toma el nombre del animal como argumento, obtiene sus características utilizando el predicado animal/3 y luego utiliza la red neuronal (neural_network/3) para determinar si el animal es un mamífero o no. Dependiendo del valor de Y, se muestra un mensaje indicando si el animal es un mamífero o no.
 
------
 ## Conclusión <a id="conclusión"></a>
 
 En este análisis, hemos explorado conceptos relacionados con las redes neuronales y el paradigma de programación lógica. Comenzamos definiendo qué son las redes neuronales, destacando su estructura inspirada en el funcionamiento del cerebro humano y su capacidad para aprender a través de la experiencia.

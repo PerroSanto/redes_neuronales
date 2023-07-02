@@ -11,7 +11,7 @@
 7. [Ventajas y desventajas](#ventajas-y-desventajas)
 8. [Redes neuronales y programación lógica](#redes-neuronales-y-programacion-logica)
 9. [Sistema Híbrido Neuro-Simbólico (SHNS)](#sistema-hibrido-neuro-simbolico-shns)
-10. [Ejercicio de redes neurales resuelto en Prolog](#ejercicio-de-redes-neurales-resuelto-en-Prolog)
+10. [Ejercicio de redes neurales resuelto en Prolog](#prolog)
 11. [Conclusión](#conclusion)
 12. [Bibliografía](#bibliografia)
 
@@ -233,7 +233,7 @@ En NSLR, el proceso de integración generalmente se desarrolla en varias etapas:
 
 Este enfoque híbrido permite superar algunas de las limitaciones que tienen los enfoques puramente simbólicos o puramente basados en redes neuronales. por ejemplo: la dificultad de las redes neuronales artificiales (RNA) para explicar los resultados obtenidos y por otro lado la dificultad de una representación simbólica para generalizar el conocimiento o dificultades en el procesamiento de grandes cantidades de datos no estructurados, trajo como consecuencia que ambas técnicas se integrarán y se complementaran en un solo enfoque llamado Sistema Híbrido Neuro-Simbólico (SHNS). Entonces, surgieron trabajos relacionados con la inserción, el refinamiento y la extracción de conocimientos.
 
-## Ejercicio de redes neurales resuelto en Prolog <a id="ejercicio-de-redes-neurales-resuelto-en-Prolog"></a>
+## Ejercicio de redes neurales resuelto en Prolog <a id="prolog"></a>
 
 El objetivo de este ejercicio es implementar una red neuronal que pueda clasificar si un animal es un mamífero o no, en función de dos características: 
 

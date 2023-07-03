@@ -10,10 +10,12 @@
 6. [Usos o aplicaciones](#usos-o-aplicaciones)
 7. [Ventajas y desventajas](#ventajas-y-desventajas)
 8. [Redes neuronales y programación lógica](#redes-neuronales-y-programacion-logica)
-9. [Sistema Híbrido Neuro-Simbólico (SHNS)](#sistema-hibrido-neuro-simbolico-shns)
-10. [Ejercicio de redes neurales resuelto en Prolog](#prolog)
-11. [Conclusión](#conclusion)
-12. [Bibliografía](#bibliografia)
+9. [Sistema Híbrido Neuro-Simbólico](#sistema-hibrido-neuro-simbolico)
+10. [Etapas de integración en NSLR](#nslr_diagrama)
+11. [Implementación de NSLR](#nslr_implementacion)
+12. [Ejercicio de redes neurales resuelto en Prolog](#prolog)
+13. [Conclusión](#conclusion)
+14. [Bibliografía](#bibliografia)
 
 
 ## Definición <a id="definicion"></a>
@@ -214,7 +216,7 @@ Lógica difusa y redes neuronales:
 * La lógica difusa se utiliza para lidiar con la imprecisión y la incertidumbre en los datos o en los resultados de las redes neuronales. Puede combinarse con redes neuronales para mejorar su capacidad para manejar información difusa y dar lugar a sistemas más robustos.
 
 
-## Sistema Híbrido Neuro-Simbólico (SHNS) <a id="sistema-hibrido-neuro-simbolico-shns"></a>
+## Sistema Híbrido Neuro-Simbólico <a id="sistema-hibrido-neuro-simbolico"></a>
 
 ![Neural-Symbolic](./imagenes/Neural-Symbolic.png)
 
@@ -232,6 +234,22 @@ En NSLR, el proceso de integración generalmente se desarrolla en varias etapas:
 * Retroalimentación: El proceso puede incluir una retroalimentación desde el razonador lógico hacia la red neuronal, donde se utilizan las respuestas obtenidas del razonamiento para refinar aún más la red neuronal en etapas de entrenamiento posteriores.
 
 Este enfoque híbrido permite superar algunas de las limitaciones que tienen los enfoques puramente simbólicos o puramente basados en redes neuronales. por ejemplo: la dificultad de las redes neuronales artificiales (RNA) para explicar los resultados obtenidos y por otro lado la dificultad de una representación simbólica para generalizar el conocimiento o dificultades en el procesamiento de grandes cantidades de datos no estructurados, trajo como consecuencia que ambas técnicas se integrarán y se complementaran en un solo enfoque llamado Sistema Híbrido Neuro-Simbólico (SHNS). Entonces, surgieron trabajos relacionados con la inserción, el refinamiento y la extracción de conocimientos.
+
+## Etapas de integración en NSLR <a id="nslr_diagrama"></a>
+
+![Neural-Symbolic](./imagenes/NSLR.png)
+
+## Implementación de NSLR <a id="nslr_implementacion"></a>
+
+### Logic tensor networks 
+
+Logic tensor networks es una framework que permite realizar consultas, aprendizaje, razonamiento y conocimiento abstracto. LTN utiliza un lenguaje de lógica de primer orden diferenciable, llamado Real Logic, para incorporar datos y lógica. 
+
+* Es un framework que corre sobre pyTorch.
+* Admite consultas, aprendizaje y razonamiento con datos complejos.
+* Utiliza la lógica de primer orden para deducir respuestas.
+* También es posible implementarlo utilizando TensorFlow.
+
 
 ## Ejercicio de redes neurales resuelto en Prolog <a id="prolog"></a>
 
@@ -366,5 +384,4 @@ Tambien analizamos sus ventajas y desventajas, así como algunas aplicaciones re
 
 ##### https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/1452/Diseno%20de%20sitemas%20hibridos%20neuro.pdf
 
-
-
+##### https://github.com/logictensornetworks/logictensornetworks
